@@ -1,7 +1,7 @@
 {
   "name": "portafolio_fm",
   "version": "1.0.0",
-  "description": "Portafolio dinamico de FalconMaster",
+  "description": "Portafolio dinamico de FalconMasters",
   "main": "index.js",
   "scripts": {
     "dev": "browser-sync start -s -f \"*.html, css/*.css, js/*.js\""

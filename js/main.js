@@ -1,3 +1,7 @@
+const loader = document.getElementById("loader");
+
+setTimeout(() => loader.classList.add("hide"), 3500);
+
 window.addEventListener("load", () => {
   let grid;
 
@@ -8,7 +12,7 @@ window.addEventListener("load", () => {
 
     grid.refreshItems().layout();
     gridEl.classList.add("page-loaded");
-  }, 500);
+  }, 3000);
 
   const searchInput = document.getElementById("gallery-search");
 

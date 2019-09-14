@@ -14,6 +14,20 @@ a {
   text-decoration: none;
 }
 
+.loader {
+  height: 100vh;
+  width: 100%;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+}
+
+.loader.hide {
+  display: none;
+}
+
 .container {
   min-height: 100vh;
   width: 100%;
