@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang=es>
+
+<head>
+  <meta charset=utf-8>
+  <meta name=viewport content="width=device-width, initial-scale=1.0, shrink-to-fit=no, user-scalable=no">
+  <title>Portafolio - CS</title>
+  <script src="https://kit.fontawesome.com/d6bc318178.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="main-content">
+
+      <header>
+        <div class="developer">
+          <h1>Cristopher Solis</h1>
+          <p>Web Developer</p>
+        </div>
+        <input id="gallery-search" type="text" name="search" placeholder="Buscar">
+        <nav class="categories">
+          <div class="category active">Todos</div>
+          <div class="category">Naturaleza</div>
+          <div class="category">Ciudades</div>
+          <div class="category">Personas</div>
+          <div class="category">Animales</div>
+        </nav>
+      </header>
+
+      <section class="grid"></section>
+
+      <section id="overlay" class="overlay">
+        <div class="image-container">
+          <button id="hide-overlay">
+            <i class="fas fa-times"></i>
+          </button>
+          <img src="" alt="">
+        </div>
+        <p class="description"></p>
+      </section>
+
+      <footer>
+        <div class="social">
+          <div class="social-container">
+            <a class="twitter" href="/" target="_blank">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </div>
+          <div class="social-container">
+            <a class="facebook" href="/" target="_blank">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+          </div>
+          <div class="social-container">
+            <a class="instagram" href="/" target="_blank">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </div>
+        </div>
+        <div class="copy">
+          <p>Desarrollador por <span>Cristopher Solis</span> | <span id="year"></span></p>
+        </div>
+      </footer>
+
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/web-animations-js@2.3.2/web-animations.min.js"></script>
+  <script src="https://unpkg.com/muuri@0.8.0/dist/muuri.min.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>
